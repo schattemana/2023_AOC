@@ -1,4 +1,4 @@
-with open('data.txt') as f:
+with open('#1/data.txt') as f:
     lines = f.readlines()
 
 def replace_numbers(line):
