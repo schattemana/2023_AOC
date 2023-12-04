@@ -10,9 +10,7 @@ for i,line in enumerate(lines):
 
     line = line[line.index(':')+1:].strip()
     total += (i+1)
-    game_dict = {}
     draws = re.split(',|;', line )
-    impossible = False
     for colour in draws:
        #list with a number at index 0  and a colour at index 1
        splitlist = (colour.strip().split())
