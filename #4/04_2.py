@@ -21,6 +21,6 @@ for line in lines:
 
 cards = [1]*189 #189 cards so we start with one card of each
 for i, points in enumerate(score):
-    
-    cards[i+1:i+points+1] = [x+1 *cards[i] for x in cards[(i+1):(i+points+1)]]
+    #sick oneliner
+    cards[i+1:i+points+1] = [x + 1 *cards[i] for x in cards[(i+1):(i+points+1)]]
 print(sum(cards))
