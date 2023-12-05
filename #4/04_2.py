@@ -1,5 +1,3 @@
-#need list with original scores
-
 with open('#4\input.txt') as f:
     lines = f.readlines()
 import re 
